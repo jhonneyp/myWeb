@@ -1,0 +1,19 @@
+{
+  "name": "myweb",
+  "version": "1.0.0",
+  "description": "Jhonney's professional website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jhonneyp/myWeb.git"
+  },
+  "author": "Jhonney Eduardo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jhonneyp/myWeb/issues"
+  },
+  "homepage": "https://github.com/jhonneyp/myWeb#readme"
+}

@@ -1,0 +1,129 @@
+:root{
+    /* Colors */
+    --m-black: #252B31;
+    --m-gray: #5E6668;
+    --m-light: #C1C8C7;
+    --m-white: #F6FAFB;
+    --m-other: #D49C6B;
+
+    /* Fonts */
+    --main-font: 'Bebas Neue', cursive;
+    --secondary-font: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0px;
+}
+
+.Header{
+    background: var(--m-white);
+    height: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.Title{
+    color: var(--m-black);
+    font-family: var(--main-font);
+    font-size: 30px;
+    font-weight: 400;
+    letter-spacing: 0.15em;
+    line-height: 78.5%;
+    margin: auto;
+    text-align: center;
+    width: 30%;
+}
+
+.Header__nav{
+    width: 35%;
+    display: flex;
+}
+
+.Header__nav--left{
+    flex-direction: row-reverse;
+}
+
+.Header__nav ul{
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.Header__nav--left ul a{
+    margin-left: 80px;
+}
+
+.Header__nav--right ul a{
+    margin-right: 80px;
+}
+
+.Header__nav ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding-left: 0px;
+}   
+
+.Header__nav a{
+    color: var(--m-black);
+    text-decoration: none;
+    font-family: var(--secondary-font);
+}
+
+/* Banner */
+
+.Banner img{
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    top: 0;
+}
+
+/* Principal */
+
+.Principal{
+    display: flex;
+    width: 100%;
+}
+
+.Principal__section {
+    width: 50%;
+    padding: 30px;
+}
+
+.Principal__section--left {
+    padding-left: 80px;
+}
+
+.Principal__section--right {
+    padding-right: 80px;
+}
+
+.Principal__section--left h3 {
+    align-items: end;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: var(--main-font);
+    font-size: 50px;
+    font-weight: 400;
+    letter-spacing: .15rem;
+    margin: 0px;
+    text-align: right;
+    height: 250px;
+
+}
+
+.Principal__section--right h3 {
+    font-family: var(--secondary-font);
+    font-size: 30px;
+    margin: 205px 0px 0px 0px;
+    text-align: left;
+}
+
+.Principal__section--right span {
+    display: inline-block;
+    font-family: var(--secondary-font);
+    font-size: 16px;
+    margin-top: 16px;
+    text-align: left;
+}
